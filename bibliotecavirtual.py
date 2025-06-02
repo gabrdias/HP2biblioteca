@@ -2,7 +2,7 @@ import os
 
 documentos = []
 
-#Funcao para adicionar documentos na biblioteca virtual
+# Funcao para adicionar documentos na biblioteca virtual
 
 def adicionar_documento():
     print('Adicionar novo documento!')
@@ -20,3 +20,13 @@ def adicionar_documento():
 
     documentos.append(novo_documento)
     print('Documento incluido com sucesso!')
+
+# Função para listar todos os documentos
+
+def listar_documentos():
+    print('Lista de documentos:')
+    if not documentos:
+        print('Nenhum documento encontrado.')
+        return
+    for doc in documentos:
+        print(f"{doc['titulo']} ({doc['ano']}) - {doc['autor']} [{doc['tipo_arquivo'].upper()}]")
