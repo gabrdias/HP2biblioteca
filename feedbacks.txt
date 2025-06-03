@@ -1,0 +1,13 @@
+Feedback 1: 
+
+Evitar duplicações ao adicionar
+Atualmente, o mesmo arquivo pode ser copiado várias vezes. Isso pode gerar arquivos duplicados com nomes iguais (e sobrescrever sem avisar).
+
+Sugestão: Checar se o arquivo já existe antes de copiar
+
+Feedback 2:
+
+Logs de atividade
+Como usuário, seria útil ver um histórico simples do que foi adicionado, renomeado ou removido — até mesmo com timestamps.
+
+Ideia: Gravar logs simples em log.txt
